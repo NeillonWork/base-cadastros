@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <Link to="/" class="navbar-brand">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container">
+        <Link to="/" className="navbar-brand">
           Fornecedores
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -16,17 +16,17 @@ function Header() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <Link to="/" class="nav-link active" aria-current="page">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link to="/" className="nav-link active" aria-current="page">
                 Minha lista
               </Link>
             </li>
-            <li class="nav-item">
-              <Link to="/cadastro" class="nav-link">
+            <li className="nav-item">
+              <Link to="/cadastro" className="nav-link">
                 Cadastro
               </Link>
             </li>
